@@ -1,8 +1,7 @@
 ﻿using Stocky.Data;
 
-namespace Stocky.Models
-{
-    public class Achat
+namespace Stocky.Models;
+public class Achat
     {
         public int Id { get; set; }
         public string Reference { get; set; }
@@ -13,4 +12,4 @@ namespace Stocky.Models
         public int ClientId { get; set; }
         public Client Client { get; set; }
     }
-}
+
